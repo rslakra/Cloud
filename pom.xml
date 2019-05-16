@@ -60,7 +60,7 @@
 
 	<build>
 		<plugins>
-			<plugin>
+			<!--plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
             </plugin>
             <plugin>
@@ -73,13 +73,18 @@
 					</archive>
 					<outputDirectory>${project.basedir}/docker</outputDirectory>
                 </configuration>
-            </plugin>
+            </plugin-->
 		
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<skip>true</skip>
+                	<archive>
+						<manifest>
+							<mainClass>com.rslakra.names.NamesApplication</mainClass>
+						</manifest>
+					</archive>
+					<outputDirectory>${project.basedir}/docker</outputDirectory>
 				</configuration>
 			</plugin>
 		</plugins>
