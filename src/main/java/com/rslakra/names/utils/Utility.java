@@ -3,10 +3,7 @@
  */
 package com.rslakra.names.utils;
 
-import java.util.ArrayList;
 import java.util.Collection;
-import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
 
 /**
@@ -47,27 +44,27 @@ public final class Utility {
 		}
 	}
 
-	/**
-	 * 
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		Object object = null;
-		System.out.println(object + ", isNullOrEmpty:" + Utility.isNullOrEmpty(object));
-		object = "";
-		System.out.println(object + ", isNullOrEmpty:" + Utility.isNullOrEmpty(object));
-		object = "Rohtash";
-		System.out.println(object + ", isNullOrEmpty:" + Utility.isNullOrEmpty(object));
-		object = new String[] {};
-		System.out.println(object + ", isNullOrEmpty:" + Utility.isNullOrEmpty(object));
-		object = new String[] { "Lakra" };
-		System.out.println(object + ", isNullOrEmpty:" + Utility.isNullOrEmpty(object));
-		object = new ArrayList<String>();
-		System.out.println(object + ", isNullOrEmpty:" + Utility.isNullOrEmpty(object));
-		object = new HashMap<Object, Object>();
-		System.out.println(object + ", isNullOrEmpty:" + Utility.isNullOrEmpty(object));
-		object = new HashSet<Object>();
-		System.out.println(object + ", isNullOrEmpty:" + Utility.isNullOrEmpty(object));
-	}
+//	/**
+//	 * 
+//	 * @param args
+//	 */
+//	public static void main(String[] args) {
+//		Object object = null;
+//		System.out.println(object + ", isNullOrEmpty:" + Utility.isNullOrEmpty(object));
+//		object = "";
+//		System.out.println(object + ", isNullOrEmpty:" + Utility.isNullOrEmpty(object));
+//		object = "Rohtash";
+//		System.out.println(object + ", isNullOrEmpty:" + Utility.isNullOrEmpty(object));
+//		object = new String[] {};
+//		System.out.println(object + ", isNullOrEmpty:" + Utility.isNullOrEmpty(object));
+//		object = new String[] { "Lakra" };
+//		System.out.println(object + ", isNullOrEmpty:" + Utility.isNullOrEmpty(object));
+//		object = new ArrayList<String>();
+//		System.out.println(object + ", isNullOrEmpty:" + Utility.isNullOrEmpty(object));
+//		object = new HashMap<Object, Object>();
+//		System.out.println(object + ", isNullOrEmpty:" + Utility.isNullOrEmpty(object));
+//		object = new HashSet<Object>();
+//		System.out.println(object + ", isNullOrEmpty:" + Utility.isNullOrEmpty(object));
+//	}
 
 }

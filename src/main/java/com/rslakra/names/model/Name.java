@@ -134,17 +134,17 @@ public class Name {
 		return sBuilder.toString();
 	}
 
-	/**
-	 * Start here.
-	 * 
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		System.out.println(new Name());
-		System.out.println(new Name("Rohtash", null));
-		System.out.println(new Name(null, "Lakra"));
-		System.out.println(new Name("Rohtash", "Lakra"));
-		System.out.println(new Name("Rohtash", "Singh", "Lakra"));
-	}
+//	/**
+//	 * Start here.
+//	 * 
+//	 * @param args
+//	 */
+//	public static void main(String[] args) {
+//		System.out.println(new Name());
+//		System.out.println(new Name("Rohtash", null));
+//		System.out.println(new Name(null, "Lakra"));
+//		System.out.println(new Name("Rohtash", "Lakra"));
+//		System.out.println(new Name("Rohtash", "Singh", "Lakra"));
+//	}
 
 }
