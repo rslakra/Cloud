@@ -1,2 +1,2 @@
-# Cloud
-This repository contains all the Cloud based projects.
+# dNames
+This is the cloud based sample project.
