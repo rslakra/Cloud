@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.rslakra.names.NamesApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.953 s - in com.rslakra.names.NamesApplicationTests
