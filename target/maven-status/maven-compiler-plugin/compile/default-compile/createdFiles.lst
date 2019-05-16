@@ -1,7 +1,0 @@
-com/rslakra/names/repository/NameRepository.class
-com/rslakra/names/utils/Utility.class
-com/rslakra/names/NamesApplication.class
-com/rslakra/names/controllers/NameController.class
-com/rslakra/names/model/Name.class
-com/rslakra/names/controllers/HomeController.class
-com/rslakra/names/services/NameService.class
