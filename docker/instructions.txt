@@ -1,0 +1,6 @@
+# You can push an images to this repository using the following commands:
+#docker tag local-image:tagname new-repo:tagname
+#docker push new-repo:tagname
+
+docker tag dNameService:dNames rlakradocker/repository:dNames
+docker push rlakradocker/repository:dNames
